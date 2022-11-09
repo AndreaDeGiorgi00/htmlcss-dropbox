@@ -4,4 +4,57 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif
+}
+/*flex*/
+
+
+.flex-sp-bt-cen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/*! tag*/
+
+
+header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+
+main{
+    padding-top: 100px;
+}
+
+
+
+/*conteiners*/
+
+
+
+/*col/bg-col*/
+
+
+.bg-blue{
+    background-color: rgb(84, 84, 228);
+}
+
+.bg-yellow{
+    background-color:yellow;
+}
+
+/* header*/
+
+.block{
+    width: 35%;
+    height: 80%;
 }
