@@ -8,7 +8,9 @@
 }
 /*flex*/
 
-
+.flex{
+    display: flex;
+}
 .flex-sp-bt-cen{
     display: flex;
     justify-content: space-between;
@@ -27,6 +29,11 @@
     
 }
 
+.flex-j-center{
+    display: flex;
+    justify-content: center;
+    
+}
 
 .flex-col{
     display: flex;
@@ -257,4 +264,30 @@ h1{
 .txt-cella{
     width: 100%;
     
+}
+
+/*sponsor-section*/
+
+.sponsor-title-section{
+    height: 300px;
+    text-align: left;
+}
+.sponsor{
+    width: calc(100%/3);
+}
+
+.sponsor-main-section{
+    height: 300px;
+
+}
+
+.block-text-sponsor{
+    flex-grow: 1;
+}
+
+/*prova-gratis-section*/
+
+.prova-gratis-section{
+    height: 300px;
+    width: 100%;
 }
