@@ -51,6 +51,14 @@
     display: flex;
     flex-wrap: wrap;
 }
+.flex-col-sta-sta{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
 /* tag*/
 
 
@@ -99,6 +107,14 @@ li{
 .tex-al-s{
     text-align: left;
 }
+.bottom-border{
+    border-bottom: 1px solid black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
 /*col/bg-col*/
 
 
@@ -132,10 +148,17 @@ li{
 .col-white{
     color: white;
 }
+.col-grey{
+    color: grey;
+}
+.col-blu{
+    color: rgb(52, 52, 223);
+}
+
 
 /*clearfix*/
 
-.intro::after ,{
+.intro::after , .float-box::after{
     clear: both;
     content: '';
     display: table;
@@ -148,17 +171,24 @@ li{
     color: white;
     padding: 3px 5px;
     border: 1px solid aqua;
-
+    ;
+    
+}
+.card .button-s-blu{
+    width: 100%;
+    margin-top: 30px;
+   
 }
 /*testo*/
 
 .title-s-bold{
-    height: 50px;
-    text-decoration-style: bold;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .text-s{
-    height: 50px ;
+   
+    font-size: 20px;
 }
 
 .title-m{
@@ -166,6 +196,15 @@ li{
     width: 100%;
     font-weight: bold;
 
+}
+.text-s-bold{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.title-s{
+    font-size: 35px;
 }
 
 
@@ -264,14 +303,67 @@ a.closing{
 /*card section*/
 .cards-container{
    width: 100%;
-   height: 750px;
+
 
 }
 
 .card{
     width: calc(100%/3 - 10px);
-    height: 700px;
 }
+.title-card{
+    text-align: center;
+}
+
+.card-description{
+    margin: 10px 0;
+}
+.emoticon-card{
+    
+    font-size: 13px;
+    padding: 5px;
+
+}
+
+.card a{
+    text-decoration: underline;
+}
+.card-acquisti{
+    text-align: left;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.txt.bottom-border{
+    padding-bottom: 50px;
+}
+
+.card-footer{
+   width: 80%;
+   margin: 0 auto;
+
+}
+
+.centratura-card{
+    width: 80%;
+    margin: 0 20px;
+}
+
+.centratura-card>.title-s-bold{
+    margin: 25px 0;
+    display: block;
+}
+
+.centratura-card .text-s-bold{
+    margin: 5px 0;
+    display: block;
+}
+
+.card .col-grey.text-s{
+    margin-bottom: 50px;
+    display: block;
+}
+
+
 
 /*team section*/
 
@@ -315,7 +407,9 @@ a.closing{
     padding-top: 50px;
 }
 /*cella*/
-
+.title-celle{
+    margin-bottom: 50px;
+}
 .cella{
     width: 100%;
 }
@@ -327,13 +421,24 @@ a.closing{
 
 .img-cella{
     max-width: 100%;
-    height: 250px;
+    
 
 }
 
 .txt-cella{
     width: 100%;
+
+
     
+}
+.txt-cella.title-s-bold{
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.img-cella img{
+    max-width: 100%;
 }
 
 /*sponsor-section*/
