@@ -479,6 +479,16 @@ a.closing{
 .sponsor-title-section{
     height: 300px;
     text-align: left;
+    gap: 50px;
+    margin: 100px 0;
+}
+.sponsor-title-section .text-s{
+    text-decoration: underline;
+    color: blue;
+    margin 80px
+}
+.sponsor-title-section .title-m{
+    width: 60%;
 }
 .sponsor{
     width: calc(100%/3);
