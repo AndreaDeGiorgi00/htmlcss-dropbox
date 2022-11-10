@@ -7,13 +7,18 @@
     font-family: 'Open Sans', sans-serif 
 }
 /*flex*/
-big-container
+
 .flex{
     display: flex;
 }
 .flex-sp-bt-cen{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.flex-sp-ar-cen{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 .flex-sp-bt{
@@ -24,8 +29,9 @@ big-container
 .flex-col-sta-sp-bt{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: space-between;
+    align-items: flex-start;
+    
+    
     
 }
 
@@ -67,7 +73,7 @@ main{
 
 
 h1{
-    font-size: 20px;
+    font-size: 70px;
     display: inline-block;
 }
 
@@ -120,6 +126,9 @@ li{
 .bg-purple{
     background-color: rgb(121, 74, 121);
 }
+.bg-white{
+    background-color: white;
+}
 .col-white{
     color: white;
 }
@@ -131,14 +140,16 @@ li{
     content: '';
     display: table;
 }
+/*buttons*/
 
-/* header*/
 
-.block{
-    width: 35%;
-    height: 80%;
+.button-s-blu{
+    background-color: aqua;
+    color: white;
+    padding: 3px 5px;
+    border: 1px solid aqua;
+
 }
-
 /*testo*/
 
 .title-s-bold{
@@ -150,23 +161,27 @@ li{
     height: 50px ;
 }
 
+/* header*/
+
+.block{
+    width: 35%;
+    height: 80%;
+}
+
+
 
 /*introduction*/
 .big-conteiner{
     width: 80%;
     margin: 50px auto;
-    height: 100%;
+    height: 540px;
+    margin-top: 0;
 }
 
 
-.introduction{
-    width: 100%;
-    height: 500px;
-}
 
 .title{
     padding: 40px 0;
-    text-align: center;
     width: 100%;
 }
 
@@ -174,17 +189,28 @@ li{
 
 .img-intro{
     float: right;
-    height: 80%;
-    width: 50%;
-}
-
-
-.testo-bottoni{
-    height:100%
+    
+    width: 60%;
 }
 
 
 
+
+p.intro{
+    padding-bottom: 20px;
+}
+
+a.closing{
+    padding: 20px 0;
+    color: black;
+}
+
+.jumbo{
+    max-width: 100%;
+}
+.arrow{
+    font-size: 40px;
+}
 /*container*/
 
 
