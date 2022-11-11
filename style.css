@@ -30,22 +30,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
-    
-    
-    
 }
 
 .flex-j-center{
     display: flex;
     justify-content: center;
-    
 }
 
 .flex-col{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
+}
+.flex-col-ali-center{
+    display: flex;
+    flex-direction: column;  
+    align-content: center; 
 }
 
 .flex-wrap{
@@ -203,7 +202,7 @@ li{
     color: black;
     padding: 10px 20px;
     text-align: center;
-    margin-top:  20px;
+    
     
 }
 
@@ -296,6 +295,7 @@ a.closing{
     width: 70%;
     margin: 30px auto;
     height: 100%;
+    
 }
 
 
@@ -553,9 +553,32 @@ a.closing{
 .tops-sponsor{
     background-color: red;
 }
-.florida-special{
+.florida-special:conte{
     padding-top: 20px;
 }
+
+
+.main-text-special-sponsor{
+    width: 80%;
+    
+    padding: 10% 20%;   
+    height: 45%;
+}
+
+.sponsor-special-image{
+    width: 80%;
+    height: 40%;
+    
+}
+
+.footer-text-special-sponsor{
+    height: 15%;
+    width:80% ;
+    padding: 0 20%;
+}
+
+
+
 /*prova-gratis-section*/
 
 .prova-gratis-section{
@@ -574,6 +597,12 @@ a.closing{
     background-color: aquamarine;
 }
 
+.prova-gratis-text{
+    width: 45%;
+}
+.prova-gratis-bg{
+    padding:0 15% ;
+}
 /*footer*/
 footer{
     height: 700px;
