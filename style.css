@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif 
 }
+html{
+    padding: 0;
+}
 /*flex*/
 
 .flex{
@@ -64,7 +67,12 @@
     align-items: flex-start;
     
 }
-
+.flex-sta-center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
 .flex-j-center-center{
     display: flex;
     justify-content: center;
@@ -77,7 +85,9 @@
 }
 
 /* tag*/
-
+button:hover{
+    cursor: pointer;
+}
 
 header{
     height: 100px;
@@ -389,6 +399,7 @@ a.closing{
 .card .col-grey.text-s{
     margin-bottom: 50px;
     display: block;
+    height: 50px;
 }
 
 
@@ -527,23 +538,24 @@ a.closing{
 }
 
 .block-text-sponsor{
-    flex-grow: 1;
+    width: calc(100%/3);
+    background-color: white;
 }
 
 .img-sponsor{
     width: calc(100%/2);
     height: calc(100%/2);
-    border: 2px solid black;
-    color: yellow;
+    border: 20px solid rgba(0, 0, 0, 0);
+    
 }
 .img-sponsor img{
     max-width: 70%;
-
+    filter: invert(1);
 }
 
 .design-sponsor{
     background-color: rgb(37, 155, 37);
-    border: 20px solid rgb(77, 179, 77);
+    
 
 }
 .arizona-sponsor{
@@ -553,15 +565,29 @@ a.closing{
 .tops-sponsor{
     background-color: red;
 }
-.florida-special:conte{
-    padding-top: 20px;
+
+.florida-sponsor{
+    background-color: blue;
 }
+.clear-sponsor{
+    background-color: red;
+}
+.world-sponsor{
+    background-color: rgb(87, 87, 234);
+}
+.hearst-sponsor{
+    background-color: rgb(39, 39, 255);
+}
+.lonely-sponsor{
+    background-color: rgb(227, 227, 30);
+}
+
 
 
 .main-text-special-sponsor{
     width: 80%;
     
-    padding: 10% 20%;   
+    padding:0 59px;   
     height: 45%;
 }
 
@@ -577,6 +603,17 @@ a.closing{
     padding: 0 20%;
 }
 
+.img-sponsor:hover{
+    border: 20px solid rgba(0, 0, 0, 50%);
+}
+.img-sponsor:hover.img-sponsor:hover{
+    border: 20px solid rgba(0, 0, 0, 50%);
+}
+.sponsor-special-image img{
+    max-width: 70%;
+    padding: 20px 59px;
+    
+}
 
 
 /*prova-gratis-section*/
@@ -607,18 +644,24 @@ a.closing{
     margin: 100px 0;
 }
 
+.risposte{
+    
+}
+
+
 /*footer*/
 .blocco-domanda i{
     margin-right: 30px;
 }
 footer{
-    height: 700px;
+    margin-top: 200px;
+    height: 600px;
     width: 100%;
 
 }
 
 .col-fold{
-    width: calc(100%/5 - 5px);
+    width: calc(100%/5 - 100px);
 }
 
 .conclusion{
@@ -626,5 +669,8 @@ footer{
     border-top: 2px solid white;
     margin: 100px 0;
     display: inline-block;
-    
+    color: white;
+}
+.footer-conteiner{
+    gap: 20px;
 }
