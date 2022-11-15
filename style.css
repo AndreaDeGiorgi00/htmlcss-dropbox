@@ -109,7 +109,7 @@ main{
 
 
 h1{
-    font-size: 70px;
+    font-size: 85px;
     display: inline-block;
 }
 
@@ -217,7 +217,9 @@ li{
 }
 
 /*testo*/
-
+.introduction{
+    height: 300px;
+}
 .title-s-bold{
     font-size: 40px;
     font-weight: bold;
@@ -284,11 +286,11 @@ li{
 
 
 p.intro-txt{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 a.closing{
-    padding: 20px 0;
+    padding: 40px 0;
     color: black;
 }
 
